@@ -1,5 +1,6 @@
-The archive "parameters_NRP" must be in the same folder as the executable
+#Introduction
 
+The archive "parameters_NRP" must be in the same folder as the executable
 
 ./NRP (Input)(Max time execution)(Algorithm)(Option_1)[Option_2][Option_3]
 
@@ -14,7 +15,7 @@ Algorithm: Choose between the following algorithms
   'tchebycheff': Augmented Thebycheff algorithm
   'mixed': Mixed two types of algorithms in {hybrid, tchebycheff}
 
-ALGORITHMS AND OPTIONS");
+#ALGORITHMS AND OPTIONS");
 	ALGORITHM  OPTION_1  OPTION_2  OPTION_3");
 		econst1 {f1,f2}
 		econst2 {f1,f2}
@@ -27,7 +28,7 @@ ALGORITHMS AND OPTIONS");
 		mixed {hybrid tchebycheff} {tchebycheff hybrid} [spf]
 
 
-EXAMPLES
+#EXAMPLES
 
 ./NRP nrp1 0 econst1 f1
 ./NRP nrp5 0 augmecon exact f1 variable
