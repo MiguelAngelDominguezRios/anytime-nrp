@@ -15,8 +15,8 @@ Algorithm: Choose between the following algorithms
  * 'tchebycheff': Augmented Thebycheff algorithm
  * 'mixed': Mixed two types of algorithms in {hybrid, tchebycheff}
 
-# ALGORITHMS AND OPTIONS;
-	ALGORITHM  OPTION_1  OPTION_2  OPTION_3;
+# ALGORITHMS AND OPTIONS
+	ALGORITHM  OPTION_1  OPTION_2  OPTION_3
 		econst1 {f1,f2}
 		econst2 {f1,f2}
 		augmecon exact {f1,f2} {'fix','variable'}
