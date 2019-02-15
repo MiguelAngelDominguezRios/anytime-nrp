@@ -20,7 +20,7 @@ The archive "parameters_NRP" must be in the same folder as the executable
  * 'mixed': Mixed two types of algorithms in {hybrid, tchebycheff}
 
 # Algorithms and Options
-	ALGORITHM  OPTION_1  OPTION_2  OPTION_3
+	ALGORITHM  OPTION_1  [OPTION_2]  [OPTION_3]
 		econst1 {f1,f2}
 		econst2 {f1,f2}
 		augmecon exact {f1,f2} {'fix','variable'}
