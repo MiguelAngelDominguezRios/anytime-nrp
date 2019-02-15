@@ -7,8 +7,10 @@ The archive "parameters_NRP" must be in the same folder as the executable
 ```
 
 **Input**: Name of the archive to execute
-Max time execution: Measured in seconds. When no limit time, type '0'
-Algorithm: Choose between the following algorithms
+
+**Max time execution**: Measured in seconds. When no limit time, type '0'
+
+**Algorithm**: Choose between the following algorithms
  * 'econst1': Epsilon constraint with 1 ILP per iteration
  * 'econst2': Epsilon constraint with 2 ILPs per iteration
  * 'augmecon': Improved Epsilon constraint, AUGMEGON
