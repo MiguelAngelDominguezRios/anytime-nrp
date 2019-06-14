@@ -1,4 +1,12 @@
-# Short Description
+# Compiling the Sources
+
+There is a [makefile](src/makefile) file to compile the sources. This [makefile](src/makefile) mut be edited prior to the compilation to set the correct location of the CPLEX path and the name of the CPLEX libraries, which depend on the version you have installed. The current [makefile](src/makefile) is prepared for CPLEX 12.6.2 running on a Linux distribution.
+
+Once you edited the [makefile](src/makefile), you can run it with the make command to generate an executable linked with the static library of CPLEX. This corresponds to the first goal of the [makefile](src/makefile), named NRP-static.
+
+You also have the option to prepare an executable dynamically linked to CPLEX. To prepare this executable use the goal NRP-dynamic. In the latter case, remember to set/modify the LD_LIBRARY_PATH environment variable to contain the path to the dynamic library before running the executable. The output of the make command should report the exact command you need to do this.
+
+# Running the Executable
 
 The archive "parameters_NRP" must be in the same folder as the executable
 
